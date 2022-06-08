@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+body{
+    color: #1B3B68;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+li {
+display: inline;
+list-style-type: none;
+margin: 20px;
+text-align: center;
+}
+
+a {
+    color: black;
+text-decoration: none;
+}
+  
+  a:link {
+      color: black;
+    text-decoration: none;
+  }
+  
+  a:visited {
+      color: black;
+    text-decoration: none;
+  }
+  
+  a:focus {
+      color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+/* Buttons */
+
+.button {
+align-items: center; /* Centre verticalement un élément */
+display: flex;
+height: 30px;
+justify-content: center; /* Centre horizontalement un élément */
+text-decoration: none;
+width: 110px;
+}
+
+	.button.mod-orange {
+	background-color: orange;
+	}
+
+	.button.mod-orange-bigger {
+		background-color: orange;
+		height: 50px;
+		width:130px;
+		margin-left: 20px;
+	}
+
+	.button.mod-transparent {
+		border: 1px solid black;
+		margin-right: 20px;
+	}
+
+
+/* Hero Component */
+
+.hero-header {
+align-items: center;
+box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+padding: 30px 120px;
+width: 100%;
+}
+	.hero-header-logo {
+		height: 50px;
+		width: 34px;
+	}
+
+	.hero-header-buttons {
+		display: flex;
+	}
+
+.hero-first-content {
+	display: flex;
+	height: 100vh;
+	max-width: 1555px;
+	margin-left: 120px;
+}
+
+	.hero-first-content-left{
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		height: 800px;
+		width: calc(50% - 60px);
+	}
+
+		.hero-first-content-left-text {
+
+		}
+
+			.hero-first-content-left-text-title{
+				font-size: 75px;
+				line-height: 75px;
+			}
+
+			.hero-first-content-left-text-paragraph{
+				font-size: 18px;
+				line-height: 25px;
+				max-width: 465px;
+			}
+
+	.hero-first-content-left-search{
+		display:flex;
+		max-width: 70%;
+		max-height: 60px;
+		margin-top: 50px;
+	}
+		.hero-first-content-left-search-input{
+			width:305px;
+		}
+	
+	.hero-first-content-left-stats{
+		display:flex;
+		justify-content:center;
+		margin-top: 100px;
+		width: 500px;
+	}
+
+		.hero-first-content-left-stats-titles{
+			font-size:48px;
+			line-height:57px;
+		}
+
+		.hero-first-content-left-stats-paragraphs{
+			font-size:18px;
+			line-height:25px;
+		}
+
+		.hero-first-content-left-stats-jobs{
+			width:33%;
+		}
+
+		.hero-first-content-left-stats-startups{
+			width:33%;
+		}
+
+		.hero-first-content-left-stats-talents{
+			width:33%;
+		}
+
+	.hero-first-content-right{
+		background-image: url(imgs/bg-first-content-right.png);
+		border: 1px solid black;
+		height: 800px;
+		width: calc(50% - 60px);
+	}
