@@ -93,8 +93,9 @@ width: 100%;
 .hero-first-content {
 	display: flex;
 	height: 100vh;
-	max-width: 100%;
-	margin-left: 120px;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 1300px;
 }
 
 	.hero-first-content-left{
@@ -166,6 +167,7 @@ width: 100%;
 		background-repeat: no-repeat;	
 		border: 1px solid black;
 		height: 800px;
+		position: relative;
 		width: calc(50% - 60px);
 	}
 
