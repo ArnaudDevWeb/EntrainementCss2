@@ -100,7 +100,7 @@ margin: 30px auto;
 }
 
 	.hero-first-content-left{
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		display: flex;
 		flex-direction: column;
 		height: 800px;
@@ -166,7 +166,7 @@ margin: 30px auto;
 		background-image: url(imgs/bg-first-content-right.png);
 		background-position:right;
 		background-repeat: no-repeat;	
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		height: 800px;
 		position: relative;
 		width: calc(50% - 60px);
@@ -248,13 +248,13 @@ margin: 30px auto;
 
 
 .hero-second-content{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin: 50px auto;
 	max-width: 1300px;
 	height : 400px;
 }
 	.hero-second-content-titles{
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		display:flex;
 		flex-direction: column;
 		height :30%;
@@ -273,11 +273,11 @@ margin: 30px auto;
 		}
 
 	.hero-second-content-group-blocs{
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		max-width: 100%;
 		display: flex;
 		justify-content:space-evenly;
-		margin:auto;
+		margin:40px auto;
 	}
 
 		.hero-second-content-group-bloc{
@@ -285,7 +285,7 @@ margin: 30px auto;
 			box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
 			color:white;
 			max-width:300px;
-			
+			padding: 20px;
 		}
 
 		.hero-second-content-group-bloc.mod-blanc{
@@ -293,5 +293,170 @@ margin: 30px auto;
 			box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
 			color:#1877F2;
 			max-width:300px;
+			
 		}
+		
+			.hero-second-content-group-blocs-paragraph{
+				color: grey;
+			}
+
+		.hero-second-content-group-bloc-chiffres{
+			font-size: 25px;
+		}
+
+.hero-third-content{
+	/* border: 1px solid black; */
+	height : 600px;
+	max-width: 1300px;
+	margin: 50px auto;
+}
+
+	.hero-third-content-first-bloc{
+		/* border: 1px solid black; */
+		max-width: 35%;
+
+		margin-top: 70px;
+	}
+
+		.hero-third-content-first-bloc-title{
+			font-size:60px;
+			margin: 0;
+		}
+		.hero-third-content-first-bloc-subtitle{
+			margin: 0;
+		}
+
+	.hero-third-content-bloc-groups{
+		margin-top: 70px;
+		/* display: flex; */
+	}
+
+		.hero-third-content-blocs-purple{
+			background-color: #FF8EA2;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100px;
+			width: 100px;
+			margin: auto;
+			padding: auto;
+		}
+			.hero-third-content-blocs-images{
+				height: 50px;
+				width: 50px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+			}
+
+		.hero-third-content-bloc-groups-line{
+			display: flex;
+			justify-content: space-between;
+		}
+
+	 	.hero-third-content-bloc-groups-line-2{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 40px; 
+		}
+
+		.hero-third-content-blocs{
+			align-items: center;
+			/* border: 1px solid black; */
+			box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+			display: flex;
+			height: 140px;
+			width: 370px;
+		}
+
+			.hero-third-content-blocs-text{
+				margin: auto;
+				max-width: 60%;
+			}
+
+.hero-fourth-content{
+
+	border: 1px solid black;
+	max-height: 100vh;
+	max-width: 1300px;
+	margin: 50px auto;
+}
+	.hero-fourth-content-bloc-titles{
+		border: 1px solid black;
+		color: #1B3B68;
+		max-width: 50%;
+		max-height: 200px;
+		margin:auto;
+		text-align: center;
+	}
+
+		.hero-fourth-content-bloc-titles-maintitle{
+			font-size: 64px;
+			line-height: 64px;
+			margin: 0 ;
+		}
+
+	.hero-fourth-content-first-bloc{
+		border: 1px solid black;
+		display: flex;
+		max-width: 1300px;
+		max-height: 360px;
+		margin-top: 40px;
+	}
+		.hero-fourth-content-first-bloc-left-image{
+			background-image: url(imgs/fourth-content-first-img.png);
+			border: 1px solid black;
+			height: 360px;
+			width: 500px;
+		}
+		.hero-fourth-content-first-bloc-right-infos{
+			border: 1px solid black;
+			height: 280px;
+			margin: auto;
+			width: 50%;
+		}
+			.hero-fourth-content-first-bloc-right-infos-header{
+				display: flex;
+				justify-content: space-between;
+			}
+				.hero-fourth-content-first-bloc-right-infos-jobname{
+					border: 1px solid black;
+				}
+				.hero-fourth-content-first-bloc-right-infos-jobsalary{
+					align-items: center;
+					border: 1px solid black;
+					display: flex;
+				}
+
+/* 	.hero-fourth-content-second-bloc{
+		border: 1px solid black;
+		display: flex;
+		max-width: 1300px;
+		max-height: 360px;
+		margin-top: 40px;
+	}
+		.hero-fourth-content-second-bloc-left-image{
+			border: 1px solid black;
+			background-image: url(imgs/fourth-content-first-img.png);
+			max-width: 500px;
+			height: 360px;
+		}
+
+	.hero-fourth-content-third-bloc{
+		border: 1px solid black;
+		display: flex;
+		max-width: 1300px;
+		max-height: 360px;
+		margin-top: 40px;
+	}
+		.hero-fourth-content-third-bloc-left-image{
+			border: 1px solid black;
+			background-image: url(imgs/fourth-content-first-img.png);
+			max-width: 500px;
+			height: 360px;
+		} */
+
+  
+
 
