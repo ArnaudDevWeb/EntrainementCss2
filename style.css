@@ -67,8 +67,10 @@ width: 110px;
 
   .button.mod-orange-medium{
     background-color: orange;
-		height: 35px;
+		font-weight: bold;
+    height: 35px;
     width: 140px;
+    margin-top: 30px;
   }
 
 	.button.mod-transparent {
@@ -383,13 +385,13 @@ margin: 30px auto;
 
 .hero-fourth-content{
 
-	border: 1px solid black;
-	max-height: 100vh;
+	/* border: 1px solid black; */
+	max-height: auto;
 	max-width: 1300px;
 	margin: 50px auto;
 }
 	.hero-fourth-content-bloc-titles{
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		color: #1B3B68;
 		max-width: 50%;
 		max-height: 200px;
@@ -404,7 +406,7 @@ margin: 30px auto;
 		}
 
 	.hero-fourth-content-first-bloc{
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		display: flex;
 		max-width: 1300px;
 		max-height: 360px;
@@ -412,12 +414,12 @@ margin: 30px auto;
 	}
 		.hero-fourth-content-first-bloc-left-image{
 			background-image: url(imgs/fourth-content-first-img.png);
-			border: 1px solid black;
+			/* border: 1px solid black; */
 			height: 360px;
 			width: 500px;
 		}
 		.hero-fourth-content-first-bloc-right-infos{
-			border: 1px solid black;
+			/* border: 1px solid black; */
 			height: 280px;
 			margin: auto;
 			width: 50%;
@@ -427,7 +429,7 @@ margin: 30px auto;
 				justify-content: space-between;
 			}
 				.hero-fourth-content-first-bloc-right-infos-jobname{
-					border: 1px solid black;
+					/* border: 1px solid black; */
           margin: 0;
 				}
           .jobname-title{
@@ -435,25 +437,23 @@ margin: 30px auto;
           }
 				.hero-fourth-content-first-bloc-right-infos-jobsalary{
 					align-items: center;
-					border: 1px solid black;
+					/* border: 1px solid black; */
 					display: flex;
 				}
 
-/* 	.hero-fourth-content-second-bloc{
-		border: 1px solid black;
-		display: flex;
-		max-width: 1300px;
-		max-height: 360px;
-		margin-top: 40px;
-	}
-		.hero-fourth-content-second-bloc-left-image{
-			border: 1px solid black;
-			background-image: url(imgs/fourth-content-first-img.png);
-			max-width: 500px;
-			height: 360px;
-		}
+    .hero-fourth-content-second-bloc-left-image{
+      background-image: url(imgs/fourth-content-second-img.png);
+      height: 360px;
+      width: 500px;
+    }
 
-	.hero-fourth-content-third-bloc{
+    .hero-fourth-content-third-bloc-left-image{
+      background-image: url(imgs/fourth-content-third-img.png);
+      height: 360px;
+      width: 500px;
+    }
+
+/*	.hero-fourth-content-third-bloc{
 		border: 1px solid black;
 		display: flex;
 		max-width: 1300px;
