@@ -65,6 +65,12 @@ width: 110px;
 		margin-left: 20px;
 	}
 
+  .button.mod-orange-medium{
+    background-color: orange;
+		height: 35px;
+    width: 140px;
+  }
+
 	.button.mod-transparent {
 		border: 1px solid black;
 		margin-right: 20px;
@@ -422,7 +428,11 @@ margin: 30px auto;
 			}
 				.hero-fourth-content-first-bloc-right-infos-jobname{
 					border: 1px solid black;
+          margin: 0;
 				}
+          .jobname-title{
+            margin: 0;
+          }
 				.hero-fourth-content-first-bloc-right-infos-jobsalary{
 					align-items: center;
 					border: 1px solid black;
